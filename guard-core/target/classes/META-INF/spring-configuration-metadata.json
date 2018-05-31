@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "guard.core.properties.SecurityProperties",
+      "name": "imooc.security",
+      "type": "guard.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "guard.core.properties.SecurityProperties",
+      "name": "imooc.security.browser",
+      "type": "guard.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "guard.core.properties.SecurityProperties",
+      "name": "imooc.security.code",
+      "type": "guard.core.properties.ValidateCodeProperties"
+    },
+    {
+      "sourceType": "guard.core.properties.SecurityProperties",
+      "name": "imooc.security.social",
+      "type": "guard.core.properties.SocialProperties"
+    }
+  ]
+}
